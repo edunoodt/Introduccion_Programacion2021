@@ -45,10 +45,8 @@ def insercion(titulos, detalles, operacion):
 
 def main(detalles):
     operacion = crearDiccionario()
-    detalles = informacion(detalles)
-            
+    detalles = informacion(detalles)       
     operacion = insercion(titulos, detalles, operacion)
-
     print(operacion)
             
         #~~~~~~~~~~~~~//Cuerpo\\~~~~~~~~~~~~~#
